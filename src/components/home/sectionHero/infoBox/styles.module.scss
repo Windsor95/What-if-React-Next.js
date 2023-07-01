@@ -1,0 +1,87 @@
+.info {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+
+    .container {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        width: 100%;
+        max-width: 117.3rem;
+        margin-left: 0;
+        margin-right: 0;
+        margin: o auto;  
+        
+        .boxLeft {
+            width: 60%;
+            margin-left: 5rem;
+            h3 {
+                font-size: 1.2rem;
+                color: #FFA800;
+                text-align: start;
+                
+            }
+
+            h1 {
+                font-size: 4.1rem;
+                line-height: 5.1rem;
+                font-weight: 600;
+                text-align: start;
+            }
+
+            p {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                max-width: 30rem;
+                height: 14.4rem;
+                text-align: start;
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 24px;
+                
+            }
+
+            a {
+                display: inline-block;
+                padding: 15px 52px;
+                background-color: #ff0000;
+                border-radius: 5px;
+                font-weight: 600;
+                font-size: 1.6rem;
+                line-height: 2.4rem;
+                color: #ffffff;
+                transition: background-color .3s ease, transform .3s ease;
+
+                &:hover {
+                    background-color: #960202;
+                    transform: scale(0.98);
+                }
+                
+            }
+        }
+
+        .boxRight {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+
+            span {
+                font-weight: 400;
+                font-size: 0.9rem;
+                text-transform: uppercase;
+                line-height: 24px;
+                max-width: 490px;
+                margin-bottom: 0.7rem;
+            }
+        }
+    }
+
+}

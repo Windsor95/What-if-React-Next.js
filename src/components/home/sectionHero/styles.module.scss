@@ -1,0 +1,29 @@
+
+.hero {
+   background-image: url('https://uploaddeimagens.com.br/images/004/527/423/original/bg.png?1688149114');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    color: white;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 1280px;
+        height: 100%;
+        margin: 0 auto;
+        padding-top: 100px;
+        .boxHero {
+            display: flex;
+            width: 100%;
+            max-width: 1280px;
+            height: 100vh;
+
+        }
+    }
+
+   
+}
