@@ -1,0 +1,49 @@
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    z-index: 1;
+
+    .boxHeader {
+        position:relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        border-left: 1px solid rgba(255, 255, 255, 0.2);
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+        
+        .logo {
+            padding-left: 2rem;
+            &:before {
+                content: '';
+                background-color: #ff0000;
+                width: 10%;
+                height: 0.5px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+
+
+            }
+        }
+
+        .wind {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            max-height: 100%;
+            padding: 2rem 2rem;
+             border-left: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    }
+}
